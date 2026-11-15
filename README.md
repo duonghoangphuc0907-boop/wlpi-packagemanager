@@ -4,6 +4,7 @@
 CLI lightweight Windows package manager written in Python.
 
 **How to run wlpi on command without the directory**
+
 Press Win + R
 
 Type sysdm.cpl
