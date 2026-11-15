@@ -1,2 +1,4 @@
 # wlpi-packagemanager
-A CLI lightweight Windows package manager written in Python.
+**What is wlpi?**
+
+CLI lightweight Windows package manager written in Python.
