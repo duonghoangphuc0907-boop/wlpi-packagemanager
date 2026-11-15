@@ -1,0 +1,542 @@
+{
+  "7zip": {
+    "version": "24.08",
+    "type": "msi",
+    "url": "https://www.7-zip.org/a/7z2408-x64.msi",
+    "silent_args": []
+  },
+  "notepad++": {
+    "version": "8.7.1",
+    "type": "exe",
+    "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.1/npp.8.7.1.Installer.x64.exe",
+    "silent_args": ["/S"]
+  },
+  "git": {
+    "version": "2.47.0",
+    "type": "exe",
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.1/Git-2.47.0-64-bit.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "vlc": {
+    "version": "3.0.21",
+    "type": "exe",
+    "url": "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe",
+    "silent_args": ["/L=1033", "/S"]
+  },
+  "vscode": {
+    "version": "1.95.3",
+    "type": "exe",
+    "url": "https://update.code.visualstudio.com/1.95.3/win32-x64/stable",
+    "silent_args": ["/VERYSILENT", "/NORESTART", "/MERGETASKS=!runcode"]
+  },
+  "python3": {
+    "version": "3.13.0",
+    "type": "exe",
+    "url": "https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe",
+    "silent_args": ["/quiet", "InstallAllUsers=1", "PrependPath=1"]
+  },
+  "nodejs": {
+    "version": "22.11.0",
+    "type": "msi",
+    "url": "https://nodejs.org/dist/v22.11.0/node-v22.11.0-x64.msi",
+    "silent_args": []
+  },
+  "go": {
+    "version": "1.23.3",
+    "type": "msi",
+    "url": "https://go.dev/dl/go1.23.3.windows-amd64.msi",
+    "silent_args": []
+  },
+  "openjdk-17": {
+    "version": "17.0.13",
+    "type": "msi",
+    "url": "https://api.adoptium.net/v3/msi/17/ga/windows/x64/jdk/hotspot/normal/eclipse",
+    "silent_args": []
+  },
+  "openjdk-21": {
+    "version": "21.0.5",
+    "type": "msi",
+    "url": "https://api.adoptium.net/v3/msi/21/ga/windows/x64/jdk/hotspot/normal/eclipse",
+    "silent_args": []
+  },
+  "cmake": {
+    "version": "3.31.0",
+    "type": "msi",
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.31.0/cmake-3.31.0-windows-x86_64.msi",
+    "silent_args": ["ADD_CMAKE_TO_PATH=System"]
+  },
+  "putty": {
+    "version": "0.82",
+    "type": "msi",
+    "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.82-installer.msi",
+    "silent_args": []
+  },
+  "winscp": {
+    "version": "6.3.6",
+    "type": "exe",
+    "url": "https://github.com/winscp/winscp/releases/download/6.3.6/WinSCP-6.3.6-Setup.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "wireshark": {
+    "version": "4.4.2",
+    "type": "exe",
+    "url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.4.2-x64.exe",
+    "silent_args": ["/S", "/desktopicon=no"]
+  },
+  "nmap": {
+    "version": "7.95",
+    "type": "exe",
+    "url": "https://nmap.org/dist/nmap-7.95-setup.exe",
+    "silent_args": ["/S"]
+  },
+  "obs-studio": {
+    "version": "31.0.0",
+    "type": "exe",
+    "url": "https://github.com/obsproject/obs-studio/releases/download/31.0.0/OBS-Studio-31.0.0-Windows-x64-Installer.exe",
+    "silent_args": ["/S"]
+  },
+  "audacity": {
+    "version": "3.7.0",
+    "type": "exe",
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-64bit.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "gimp": {
+    "version": "2.10.38",
+    "type": "exe",
+    "url": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup-1.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "inkscape": {
+    "version": "1.4",
+    "type": "msi",
+    "url": "https://media.inkscape.org/dl/resources/file/inkscape-1.4_x64.msi",
+    "silent_args": []
+  },
+  "blender": {
+    "version": "4.3.0",
+    "type": "msi",
+    "url": "https://download.blender.org/release/Blender4.3/blender-4.3.0-windows-x64.msi",
+    "silent_args": []
+  },
+  "krita": {
+    "version": "5.2.6",
+    "type": "exe",
+    "url": "https://download.kde.org/stable/krita/5.2.6/krita-x64-5.2.6-setup.exe",
+    "silent_args": ["/S"]
+  },
+  "handbrake": {
+    "version": "1.8.2",
+    "type": "exe",
+    "url": "https://github.com/HandBrake/HandBrake/releases/download/1.8.2/HandBrake-1.8.2-x86_64-Win_GUI.exe",
+    "silent_args": ["/S"]
+  },
+  "ffmpeg-builds": {
+    "version": "7.1",
+    "type": "exe",
+    "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip",
+    "silent_args": []
+  },
+  "libreoffice": {
+    "version": "24.8.3",
+    "type": "msi",
+    "url": "https://download.documentfoundation.org/libreoffice/stable/24.8.3/win/x86_64/LibreOffice_24.8.3_Win_x86-64.msi",
+    "silent_args": []
+  },
+  "sumatrapdf": {
+    "version": "3.5.2",
+    "type": "exe",
+    "url": "https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe",
+    "silent_args": ["-s"]
+  },
+  "calibre": {
+    "version": "7.21.0",
+    "type": "msi",
+    "url": "https://download.calibre-ebook.com/7.21.0/calibre-64bit-7.21.0.msi",
+    "silent_args": []
+  },
+  "thunderbird": {
+    "version": "128.4.0",
+    "type": "exe",
+    "url": "https://download.mozilla.org/?product=thunderbird-128.4.0esr-SSL&os=win64&lang=en-US",
+    "silent_args": ["/INI=C:\\Temp\\thunderbird.ini"]
+  },
+  "firefox": {
+    "version": "132.0",
+    "type": "exe",
+    "url": "https://download.mozilla.org/?product=firefox-132.0-SSL&os=win64&lang=en-US",
+    "silent_args": ["/S"]
+  },
+  "brave": {
+    "version": "1.72.105",
+    "type": "exe",
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.72.105/BraveBrowserStandaloneSetup.exe",
+    "silent_args": ["/silent", "/install"]
+  },
+  "filezilla": {
+    "version": "3.68.1",
+    "type": "exe",
+    "url": "https://download.filezilla-project.org/client/FileZilla_3.68.1_win64-setup.exe",
+    "silent_args": ["/S"]
+  },
+  "qbittorrent": {
+    "version": "5.0.1",
+    "type": "exe",
+    "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.0.1/qbittorrent_5.0.1_x64_setup.exe",
+    "silent_args": ["/S"]
+  },
+  "keepassxc": {
+    "version": "2.7.9",
+    "type": "msi",
+    "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.9/KeePassXC-2.7.9-Win64.msi",
+    "silent_args": []
+  },
+  "bitwarden": {
+    "version": "2024.10.1",
+    "type": "exe",
+    "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2024.10.1/Bitwarden-Installer-2024.10.1.exe",
+    "silent_args": ["/S"]
+  },
+  "veracrypt": {
+    "version": "1.26.14",
+    "type": "exe",
+    "url": "https://launchpad.net/veracrypt/trunk/1.26.14/+download/VeraCrypt_Setup_x64_1.26.14.exe",
+    "silent_args": ["/verysilent", "/norestart"]
+  },
+  "rufus": {
+    "version": "4.6",
+    "type": "exe",
+    "url": "https://github.com/pbatard/rufus/releases/download/v4.6/rufus-4.6.exe",
+    "silent_args": []
+  },
+  "balenaetcher": {
+    "version": "1.19.25",
+    "type": "exe",
+    "url": "https://github.com/balena-io/etcher/releases/download/v1.19.25/balenaEtcher-Setup-1.19.25.exe",
+    "silent_args": ["/S"]
+  },
+  "ventoy": {
+    "version": "1.0.99",
+    "type": "exe",
+    "url": "https://github.com/ventoy/Ventoy/releases/download/v1.0.99/ventoy-1.0.99-windows.exe",
+    "silent_args": []
+  },
+  "cpu-z": {
+    "version": "2.11",
+    "type": "exe",
+    "url": "https://download.cpuid.com/cpu-z/cpu-z_2.11-en.exe",
+    "silent_args": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"]
+  },
+  "gpu-z": {
+    "version": "2.60.0",
+    "type": "exe",
+    "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/",
+    "silent_args": ["/S"]
+  },
+  "hwinfo": {
+    "version": "8.14",
+    "type": "exe",
+    "url": "https://www.hwinfo.com/files/hwi64_814.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "crystaldiskinfo": {
+    "version": "9.4.2",
+    "type": "exe",
+    "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.4.2/CrystalDiskInfo9_4_2.exe/download",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "crystaldiskmark": {
+    "version": "8.0.5",
+    "type": "exe",
+    "url": "https://sourceforge.net/projects/crystaldiskmark/files/8.0.5/CrystalDiskMark8_0_5.exe/download",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "speccy": {
+    "version": "1.32",
+    "type": "exe",
+    "url": "https://download.ccleaner.com/spsetup132.exe",
+    "silent_args": ["/S"]
+  },
+  "everything": {
+    "version": "1.4.1.1026",
+    "type": "exe",
+    "url": "https://www.voidtools.com/Everything-1.4.1.1026.x64-Setup.exe",
+    "silent_args": ["/S"]
+  },
+  "wiztree": {
+    "version": "4.20",
+    "type": "exe",
+    "url": "https://diskanalyzer.com/files/wiztree_4_20_setup.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "treesize-free": {
+    "version": "4.7.2",
+    "type": "exe",
+    "url": "https://download.jam-software.com/treesize_free/TreeSizeFree-Setup.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "sharex": {
+    "version": "16.1.0",
+    "type": "exe",
+    "url": "https://github.com/ShareX/ShareX/releases/download/v16.1.0/ShareX-16.1.0-setup.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "flameshot": {
+    "version": "12.1.0",
+    "type": "exe",
+    "url": "https://github.com/flameshot-org/flameshot/releases/download/v12.1.0/Flameshot-12.1.0-win64.msi",
+    "silent_args": []
+  },
+  "greenshot": {
+    "version": "1.2.10",
+    "type": "exe",
+    "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "autohotkey": {
+    "version": "2.0.18",
+    "type": "exe",
+    "url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.18/AutoHotkey_2.0.18_setup.exe",
+    "silent_args": ["/silent"]
+  },
+  "powertoys": {
+    "version": "0.86.0",
+    "type": "exe",
+    "url": "https://github.com/microsoft/PowerToys/releases/download/v0.86.0/PowerToysUserSetup-0.86.0-x64.exe",
+    "silent_args": ["--silent"]
+  },
+  "windows-terminal": {
+    "version": "1.21.2911.0",
+    "type": "msi",
+    "url": "https://github.com/microsoft/terminal/releases/download/v1.21.2911.0/Microsoft.WindowsTerminal_1.21.2911.0_x64.msi",
+    "silent_args": []
+  },
+  "wsl": {
+    "version": "2.3.26",
+    "type": "msi",
+    "url": "https://github.com/microsoft/WSL/releases/download/2.3.26/wsl.2.3.26.0.x64.msi",
+    "silent_args": []
+  },
+  "docker-desktop": {
+    "version": "4.36.0",
+    "type": "exe",
+    "url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe",
+    "silent_args": ["install", "--quiet", "--accept-license"]
+  },
+  "postman": {
+    "version": "11.18.0",
+    "type": "exe",
+    "url": "https://dl.pstmn.io/download/latest/win64",
+    "silent_args": ["-s"]
+  },
+  "insomnia": {
+    "version": "10.1.1",
+    "type": "exe",
+    "url": "https://github.com/Kong/insomnia/releases/download/core%4010.1.1/Insomnia.Core-10.1.1.exe",
+    "silent_args": ["/S"]
+  },
+  "dbeaver": {
+    "version": "24.2.4",
+    "type": "exe",
+    "url": "https://github.com/dbeaver/dbeaver/releases/download/24.2.4/dbeaver-ce-24.2.4-x86_64-setup.exe",
+    "silent_args": ["/S"]
+  },
+  "heidisql": {
+    "version": "12.8",
+    "type": "exe",
+    "url": "https://www.heidisql.com/downloads/installers/HeidiSQL_12.8_64_Setup.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "mysql-workbench": {
+    "version": "8.0.40",
+    "type": "msi",
+    "url": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.40-winx64.msi",
+    "silent_args": []
+  },
+  "pgadmin4": {
+    "version": "8.12",
+    "type": "exe",
+    "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v8.12/windows/pgadmin4-8.12-x64.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "sqlitebrowser": {
+    "version": "3.13.1",
+    "type": "msi",
+    "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.msi",
+    "silent_args": []
+  },
+  "wireshark-npcap": {
+    "version": "1.79",
+    "type": "exe",
+    "url": "https://npcap.com/dist/npcap-1.79.exe",
+    "silent_args": ["/winpcap_mode=yes"]
+  },
+  "putty-cac": {
+    "version": "0.82",
+    "type": "msi",
+    "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.82-installer.msi",
+    "silent_args": []
+  },
+  "mremoteng": {
+    "version": "1.77.2",
+    "type": "msi",
+    "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.77.2/mRemoteNG-Installer-1.77.2.20636.msi",
+    "silent_args": []
+  },
+  "termius": {
+    "version": "9.16.0",
+    "type": "exe",
+    "url": "https://autoupdate.termius.com/windows/Termius%20Setup.exe",
+    "silent_args": ["/S"]
+  },
+  "mobaxterm": {
+    "version": "24.3",
+    "type": "msi",
+    "url": "https://download.mobatek.net/2432024081414162/MobaXterm_Installer_v24.3.msi",
+    "silent_args": []
+  },
+  "discord": {
+    "version": "1.0.9168",
+    "type": "exe",
+    "url": "https://discord.com/api/download?platform=win&format=exe",
+    "silent_args": ["-s"]
+  },
+  "slack": {
+    "version": "4.41.95",
+    "type": "exe",
+    "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.41.95/SlackSetup.exe",
+    "silent_args": ["-s"]
+  },
+  "zoom": {
+    "version": "6.2.6",
+    "type": "msi",
+    "url": "https://zoom.us/client/6.2.6/ZoomInstallerFull.msi",
+    "silent_args": []
+  },
+  "telegram-desktop": {
+    "version": "5.7.2",
+    "type": "exe",
+    "url": "https://telegram.org/dl/desktop/win64",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "signal": {
+    "version": "7.31.0",
+    "type": "exe",
+    "url": "https://updates.signal.org/desktop/signal-desktop-win-7.31.0.exe",
+    "silent_args": ["--silent"]
+  },
+  "spotify": {
+    "version": "1.2.49",
+    "type": "exe",
+    "url": "https://download.scdn.co/SpotifySetup.exe",
+    "silent_args": ["--silent"]
+  },
+  "steam": {
+    "version": "2.10.91.91",
+    "type": "exe",
+    "url": "https://cdn.fastly.steamstatic.com/client/installer/SteamSetup.exe",
+    "silent_args": ["/S"]
+  },
+  "epic-games-launcher": {
+    "version": "16.12.0",
+    "type": "msi",
+    "url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi",
+    "silent_args": []
+  },
+  "gog-galaxy": {
+    "version": "2.0.76",
+    "type": "exe",
+    "url": "https://webinstallers.gog-games.com/installer/GOG_Galaxy_2.0.76.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "itch": {
+    "version": "25.6.2",
+    "type": "exe",
+    "url": "https://itch.io/app/download?platform=windows",
+    "silent_args": ["-s"]
+  },
+  "retroarch": {
+    "version": "1.19.1",
+    "type": "exe",
+    "url": "https://buildbot.libretro.com/stable/1.19.1/windows/x86_64/RetroArch-setup.exe",
+    "silent_args": ["/S"]
+  },
+  "dolphin-emu": {
+    "version": "2409",
+    "type": "exe",
+    "url": "https://dl.dolphin-emu.org/releases/2409/dolphin-2409-x64.exe",
+    "silent_args": ["/S"]
+  },
+  "pcsx2": {
+    "version": "2.2.0",
+    "type": "exe",
+    "url": "https://github.com/PCSX2/pcsx2/releases/download/v2.2.0/pcsx2-v2.2.0-windows-x64-Qt.7z",
+    "silent_args": ["/S"]
+  },
+  "mpv": {
+    "version": "0.39.0",
+    "type": "exe",
+    "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20241020/mpv-x86_64-20241020-git-561603f.7z",
+    "silent_args": []
+  },
+  "foobar2000": {
+    "version": "2.1.6",
+    "type": "exe",
+    "url": "https://www.foobar2000.org/files/foobar2000-x64_2.1.6.exe",
+    "silent_args": ["/S"]
+  },
+  "musicbee": {
+    "version": "3.5.8998",
+    "type": "exe",
+    "url": "https://getmusicbee.com/downloads/MusicBee_3_5_8998_Setup.exe",
+    "silent_args": ["/S"]
+  },
+  "winamp": {
+    "version": "5.666",
+    "type": "exe",
+    "url": "https://download.nullsoft.com/winamp/client/winamp5666_full_en-us.exe",
+    "silent_args": ["/S"]
+  },
+  "aimp": {
+    "version": "5.30.2545",
+    "type": "exe",
+    "url": "https://www.aimp.ru/files/windows/builds/aimp_5.30.2545_w64.exe",
+    "silent_args": ["/AUTO"]
+  },
+  "k-lite-codec-pack-basic": {
+    "version": "18.5.0",
+    "type": "exe",
+    "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1850_Basic.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "sublimetext": {
+    "version": "4180",
+    "type": "exe",
+    "url": "https://download.sublimetext.com/sublime_text_build_4180_x64_setup.exe",
+    "silent_args": ["/VERYSILENT", "/NORESTART"]
+  },
+  "vim": {
+    "version": "9.1",
+    "type": "exe",
+    "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.1.0000/gvim_9.1.0000_x64.exe",
+    "silent_args": ["/S"]
+  },
+  "neovim": {
+    "version": "0.10.2",
+    "type": "msi",
+    "url": "https://github.com/neovim/neovim/releases/download/v0.10.2/nvim-win64.msi",
+    "silent_args": []
+  },
+  "jq": {
+    "version": "1.7.1",
+    "type": "exe",
+    "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-windows-amd64.exe",
+    "silent_args": []
+  },
+  "ripgrep": {
+    "version": "14.1.1",
+    "type": "msi",
+    "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64.msi",
+    "silent_args": []
+  }
+}
