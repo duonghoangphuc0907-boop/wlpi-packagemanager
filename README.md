@@ -20,3 +20,7 @@ Select Edit
 Select New
 
 Enter the directory that you placed earlier.
+
+**Wlpi stand for**
+
+Windows Lightweight Package Installer
