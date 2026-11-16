@@ -3,7 +3,9 @@
 
 CLI lightweight Windows package manager written in Python.
 
-**How to run wlpi on command without the directory**
+**How to run wlpi on command without navigate directory**
+
+Copy the directory you download earlier to C:\Program Files (x86)
 
 Press Win + R
 
@@ -19,7 +21,7 @@ Select Edit
 
 Select New
 
-Enter the directory that you placed earlier.
+Enter the directory: C:\Program Files (x86)\dist
 
 **Wlpi stand for**
 
